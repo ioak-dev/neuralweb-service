@@ -16,10 +16,10 @@ export const generateSections = async (req: any, res: any) => {
 
   await finishGenerating(req.params.space, req.params.bookref);
 
-  await SectiondetailHelper.generateAllSectionSummaries(
-    req.params.space,
-    req.params.bookref
-  );
+  // await SectiondetailHelper.generateAllSectionSummaries(
+  //   req.params.space,
+  //   req.params.bookref
+  // );
 
   // if (!response) {
   //   res.status(404);
